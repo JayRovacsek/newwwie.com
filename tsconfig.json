@@ -11,6 +11,12 @@
     "resolveJsonModule": true,
     "sourceMap": false,
     "strict": true,
-    "target": "ESNext"
+    "target": "ESNext",
+    "skipLibCheck": true
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    }
   }
 }
