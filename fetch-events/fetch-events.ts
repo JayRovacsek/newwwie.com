@@ -1,7 +1,7 @@
-import _ from "lodash";
+import * as _ from "lodash";
 import axios from "axios";
 import { DateTime } from "luxon";
-import path from "path";
+import * as path from "path";
 import { readFileSync, writeFileSync } from "fs";
 import { renderString } from "nunjucks";
 
