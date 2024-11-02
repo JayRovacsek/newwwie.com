@@ -1,12 +1,13 @@
-#OS junk files
+.direnv
+.idea
+.pre-commit-config.yaml
 [Tt]humbs.db
 *.DS_Store
-
-node_modules
-*.sass-cache/
 *.log
 *.log.*
-sftp-config.json
+*.sass-cache/
 /uploads
+dist
+node_modules
+sftp-config.json
 yarn.lock
-.idea
